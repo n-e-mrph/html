@@ -1,0 +1,104 @@
+/* Annie Murphy Final 2-28-26 - CSS Page*/
+
+#wrapper {
+    width: 80%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    font-family:Arial, sans-serif;
+    font-size: 1em;
+    background-color: #DADDE6;
+    line-height: 1.5em;
+}
+
+header {
+    color:#162E25;
+    text-align: center;
+    padding: 1em;
+    font-family: sans-serif;
+}
+
+nav ul {
+    list-style-type:none;
+    padding: 0;
+    background-color:#287A70;
+    text-align:center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+main {
+    width: 65%;
+    padding: 1%;
+text-align: center;
+list-style-position: inside; 
+box-sizing:border-box;
+
+}
+
+aside {
+    width: 30%;
+    padding: 1%;
+    text-align: center;
+   box-sizing: border-box;
+  border: 5px solid #7A6D31;
+  
+}
+
+img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 80px;
+}
+
+
+footer {
+    
+    color:#000;
+    text-align: center;
+    padding: 1em;
+
+}
+
+
+
+.columns {
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+}
+
+.full-width{
+    width: 100%;
+    padding: 1%;
+    background-color: #7A6D31;
+    margin-top: 1em;
+    box-sizing: border-box;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Color Theme Swatches in Hex */
+.Hermione-1-hex { color: #162E25; }
+.Hermione-2-hex { color: #287A70; }
+.Hermione-3-hex { color: #7A577A; }
+.Hermione-4-hex { color: #7A6D31; }
+.Hermione-5-hex { color: #DADDE6; }
